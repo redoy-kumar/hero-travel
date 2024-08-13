@@ -1,0 +1,73 @@
+@media screen and (max-width:576px) {
+
+    /* Navbar Section */
+    .navbar-container {
+        max-width: 332px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* banner section */
+
+    .banner-container {
+        max-width: 332px;
+    }
+
+    .banner-title-container {
+        max-width: 304px;
+        margin: 0 auto;
+        color: white;
+        padding-top: 50px;
+        margin-bottom: 48px;
+    }
+
+    .banner-title-container h1 {
+        font-size: 1.375rem;
+    }
+
+    .banner-title-container p {
+        font-size: 0.875rem;
+    }
+
+
+    .banner-options-container {
+        max-width: 287px;
+        padding: 0;
+        flex-direction: column;
+        gap: 16px;
+        border: 1px solid tomato;
+    }
+
+    .banner-options-inner-container{
+        max-width: 255px;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    form{
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+
+    input{
+        width: 235px;
+    }
+
+    select{
+        width: 100%;
+    }
+
+    .banner-options-container button{
+        padding: 15px 85px;
+    }
+}
