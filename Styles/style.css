@@ -21,6 +21,13 @@ body{
     color: white;
     padding: 15px;
     border: none;
+    border-radius: 8px;
+}
+
+.paragraph-font-size{
+    font-size: 1rem;
+    color: rgba(19, 19, 24, 0.7);
+    text-align: justify;
 }
 
 /* Navbar container */
@@ -122,4 +129,45 @@ form{
     width: 18px;
     height: 18px;
 }
+
+/* Popular Tour Section */
+.popular-tour-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.pupular-tour-left-box{
+    width: 50%;
+}
+.pupular-tour-left-box h1{
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.pupular-tour-left-box ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    color: rgba(19, 19, 24, 0.7);
+}
+.pupular-tour-left-box ul>li{
+    font-size: 0.875rem;
+    list-style-type: disc;
+    margin-top: -25px;
+}
+
+.pupular-tour-left-box button{
+    margin-top: 30px;
+}
+
+.pupular-tour-right-box{
+    width: 50%;
+}
+
 

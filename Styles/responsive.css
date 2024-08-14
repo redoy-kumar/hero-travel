@@ -1,5 +1,11 @@
 @media screen and (max-width:576px) {
 
+    /* Shared Style */
+    .paragraph-font-size{
+        font-size: 0.875rem;
+        color: rgba(19, 19, 24, 0.7);
+    }
+
     /* Navbar Section */
     .navbar-container {
         max-width: 332px;
@@ -69,5 +75,29 @@
 
     .banner-options-container button{
         padding: 15px 85px;
+    }
+
+    /* Popular Tour Section */
+    .popular-tour-container{
+        max-width: 332px;
+        flex-direction: column;
+    }
+
+    .pupular-tour-left-box{
+        width: 100%;
+    }
+
+    .pupular-tour-left-box h1{
+        margin-bottom: 25px;
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+
+    .popular-tour-right-box {
+        max-width: 100%;
+    }
+
+    .popular-tour-right-box img{
+        width: 100%;
     }
 }
