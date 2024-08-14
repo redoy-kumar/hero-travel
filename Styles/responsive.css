@@ -23,6 +23,7 @@
 
     .banner-container {
         max-width: 332px;
+        background-position: center;
     }
 
     .banner-title-container {
@@ -33,7 +34,7 @@
         margin-bottom: 48px;
     }
 
-    .banner-title-container h1 {
+    .banner-title-container h1, .destination-title-container h1{
         font-size: 1.375rem;
     }
 
@@ -99,5 +100,86 @@
 
     .popular-tour-right-box img{
         width: 100%;
+    }
+
+    /* Choose Your Destination Section */
+    .destination-container{
+        max-width: 332px;
+    }
+
+    .picture-grid-container{
+        max-width: 332px;
+    }
+
+    .first-grid-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 16px;
+    }
+
+    .first-grid-box img{
+        width: 100%;
+        height: 180px;
+        border-radius: 7px;
+    }
+
+    .first-grid-box h2{
+        position:absolute;
+        color: white;
+        font-size: 1.25rem;
+        margin-top: 80px;
+        margin-left: 125px;
+    }
+
+    .second-grid-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 16px;
+    }
+
+    .second-grid-box img{
+        width: 100%;
+        height: 180px;
+        border-radius: 7px;
+    }
+
+    #kashmir h2{
+        font-size: 1.25rem;
+        margin-top: 80px;
+        margin-left: 125px;
+    }
+
+    #srilanka img{
+        height: 180px;
+    }
+
+    #srilanka h2{
+        font-size: 1.25rem;
+        margin-top: 80px;
+        margin-left: 125px;
+    }
+
+    #north-america h2{
+        font-size: 1.25rem;
+        margin-top: 95px;
+        margin-left: 100px;
+    }
+
+    .third-grid-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 16px;
+    }
+
+    .third-grid-box img{
+        width: 100%;
+        height: 180px;
+        border-radius: 7px;
+    }
+
+    #bangladesh h2,#bandarban h2{
+        font-size: 1.25rem;
+        margin-top: 90px;
+        margin-left: 115px;
     }
 }

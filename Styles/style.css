@@ -170,4 +170,88 @@ form{
     width: 50%;
 }
 
+/* Choose Your Destination Section */
+.destination-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 90px;
+}
 
+.destination-title-container{
+    max-width: 643px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.destination-title-container h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.destination-container p{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.picture-grid-container{
+    margin-top: 45px;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.picture-grid-container img{
+    border-radius: 8px;
+}
+
+.first-grid-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+
+.second-grid-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+
+.third-grid-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+.first-grid-box h2{
+    position:absolute;
+    color: white;
+    margin-top: 150px;
+    margin-left: 240px;
+}
+
+.second-grid-box h2{
+    position:absolute;
+    color: white;
+    margin-top: 150px;
+    margin-left: 140px;
+}
+
+#kashmir h2{
+    margin-left: 90px;
+}
+
+.third-grid-box h2{
+    position:absolute;
+    color: white;
+    margin-top: 150px;
+    margin-left: 165px;
+}
+
+#bandarban h2{
+    margin-left: 265px;
+}
