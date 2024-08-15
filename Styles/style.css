@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
 /* Shared Style */
-.primary-color{
+.primary-color {
     color: rgb(255, 84, 0);
 }
 
-.btn-primary{
+.btn-primary {
     background-color: rgb(255, 84, 0);
     color: white;
     padding: 15px;
@@ -24,14 +24,14 @@ body{
     border-radius: 8px;
 }
 
-.paragraph-font-size{
+.paragraph-font-size {
     font-size: 1rem;
     color: rgba(19, 19, 24, 0.7);
     text-align: justify;
 }
 
 /* Navbar container */
-.navbar-container{
+.navbar-container {
     max-width: 1170px;
     margin: 0 auto;
     margin-top: 60px;
@@ -40,27 +40,27 @@ body{
     align-items: center;
 }
 
-.hamburger-menu{
+.hamburger-menu {
     display: none;
 }
 
-.logo-title-container{
+.logo-title-container {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-ul{
+ul {
     list-style-type: none;
     display: flex;
     gap: 44px;
 }
 
 /* banner section */
-.banner-container{
+.banner-container {
     max-width: 1170px;
     margin: 0 auto;
-    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url('../images/banner.png');
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url('../images/banner.png');
     height: 500px;
     background-size: cover;
     text-align: center;
@@ -68,7 +68,7 @@ ul{
     margin-top: 50px
 }
 
-.banner-title-container{
+.banner-title-container {
     max-width: 676px;
     margin: 0 auto;
     color: white;
@@ -79,11 +79,11 @@ ul{
     margin-bottom: 48px;
 }
 
-.banner-title-container h1{
+.banner-title-container h1 {
     font-size: 4rem;
 }
 
-.banner-options-container{
+.banner-options-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 10px;
@@ -91,47 +91,48 @@ ul{
     background: rgba(255, 255, 255, 0.3);
 }
 
-.banner-options-inner-container{
+.banner-options-inner-container {
     display: flex;
     gap: 24px;
     justify-content: center;
     align-items: center;
 }
 
-::placeholder{
+::placeholder {
     color: rgba(19, 19, 24, 0.5);
 }
 
-input{
+input {
     padding: 10px 10px;
     border-radius: 8px;
     border: none;
 }
 
-select{
+select {
     width: 174px;
     padding: 10px 10px;
     color: rgba(19, 19, 24, 0.5);
     border-radius: 8px;
 }
-form{
+
+form {
     display: flex;
     gap: 24px;
 }
 
-.banner-options-container button{
+.banner-options-container button {
     display: flex;
     padding: 10px 30px;
     border-radius: 8px;
 }
 
-.banner-container img{
+.banner-container img {
     width: 18px;
     height: 18px;
 }
 
 /* Popular Tour Section */
-.popular-tour-container{
+.popular-tour-container {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
@@ -139,16 +140,17 @@ form{
     gap: 50px;
 }
 
-.pupular-tour-left-box{
+.pupular-tour-left-box {
     width: 50%;
 }
-.pupular-tour-left-box h1{
+
+.pupular-tour-left-box h1 {
     margin-bottom: 25px;
     font-size: 2.5rem;
     font-weight: 800;
 }
 
-.pupular-tour-left-box ul{
+.pupular-tour-left-box ul {
     display: flex;
     flex-direction: column;
     margin-top: 45px;
@@ -156,45 +158,46 @@ form{
     margin-left: 20px;
     color: rgba(19, 19, 24, 0.7);
 }
-.pupular-tour-left-box ul>li{
+
+.pupular-tour-left-box ul>li {
     font-size: 0.875rem;
     list-style-type: disc;
     margin-top: -25px;
 }
 
-.pupular-tour-left-box button{
+.pupular-tour-left-box button {
     margin-top: 30px;
 }
 
-.pupular-tour-right-box{
+.pupular-tour-right-box {
     width: 50%;
 }
 
 /* Choose Your Destination Section */
-.destination-container{
+.destination-container {
     max-width: 1170px;
     margin: 0 auto;
     align-items: center;
     margin-top: 90px;
 }
 
-.destination-title-container{
+.destination-title-container {
     max-width: 643px;
     margin: 0 auto;
     text-align: center;
 }
 
-.destination-title-container h1{
+.destination-title-container h1 {
     font-size: 2.5rem;
     font-weight: 800;
 }
 
-.destination-container p{
+.destination-container p {
     text-align: center;
     margin-top: 24px;
 }
 
-.picture-grid-container{
+.picture-grid-container {
     margin-top: 45px;
     max-width: 1170px;
     margin: 0 auto;
@@ -204,54 +207,122 @@ form{
     margin-top: 48px;
 }
 
-.picture-grid-container img{
+.picture-grid-container img {
     border-radius: 8px;
 }
 
-.first-grid-box{
+.first-grid-box {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 
 
-.second-grid-box{
+.second-grid-box {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
-.third-grid-box{
+.third-grid-box {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 
-.first-grid-box h2{
-    position:absolute;
+.first-grid-box h2 {
+    position: absolute;
     color: white;
     margin-top: 150px;
     margin-left: 240px;
 }
 
-.second-grid-box h2{
-    position:absolute;
+.second-grid-box h2 {
+    position: absolute;
     color: white;
     margin-top: 150px;
     margin-left: 140px;
 }
 
-#kashmir h2{
+#kashmir h2 {
     margin-left: 90px;
 }
 
-.third-grid-box h2{
-    position:absolute;
+.third-grid-box h2 {
+    position: absolute;
     color: white;
     margin-top: 150px;
     margin-left: 165px;
 }
 
-#bandarban h2{
+#bandarban h2 {
     margin-left: 265px;
+}
+
+/* Why Choose Us Section */
+.why-choose-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.why-choose-title-container {
+    max-width: 643px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.why-choose-title-container h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.why-choose-title-container p {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.why-choose-first-grid-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+#handpicked-hotels {
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.why-choose-card-inner-box {
+    max-width: 486px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.why-choose-card-inner-box img {
+    margin-bottom: 32px;
+}
+
+.why-choose-card-inner-box h2 {
+    margin-bottom: 16px;
+}
+
+#world-class-service {
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.why-choose-second-grid-box {
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+    max-width: 573px;
+    margin: 0 auto;
+    margin-top: 24px;
 }
