@@ -182,4 +182,37 @@
         margin-top: 90px;
         margin-left: 115px;
     }
+
+    /* Why Choose us Section */
+    .why-choose-container {
+        max-width: 332px;
+    }
+
+    .why-choose-title-container {
+        max-width: 309px;
+        margin-bottom: 16px;
+    }
+
+    .why-choose-title-container h1{
+        font-size: 1.25rem;
+        font-weight: 800;
+        margin-bottom: 16px;
+    }
+
+    .why-choose-title-container p {
+        color: rgba(19, 19, 24, 0.7);
+        font-size: 0.875rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .why-choose-first-grid-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    .why-choose-second-grid-box {
+        margin-top: 16px;
+    }
 }
