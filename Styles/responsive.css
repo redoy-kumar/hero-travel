@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
 
     /* Shared Style */
-    .paragraph-font-size{
+    .paragraph-font-size {
         font-size: 0.875rem;
         color: rgba(19, 19, 24, 0.7);
     }
@@ -34,7 +34,8 @@
         margin-bottom: 48px;
     }
 
-    .banner-title-container h1, .destination-title-container h1{
+    .banner-title-container h1,
+    .destination-title-container h1 {
         font-size: 1.375rem;
     }
 
@@ -51,7 +52,7 @@
         border: 1px solid tomato;
     }
 
-    .banner-options-inner-container{
+    .banner-options-inner-container {
         max-width: 255px;
         margin: 0 auto;
         flex-direction: column;
@@ -60,35 +61,35 @@
         margin-bottom: 10px;
     }
 
-    form{
+    form {
         flex-direction: column;
         width: 100%;
         gap: 16px;
     }
 
-    input{
+    input {
         width: 235px;
     }
 
-    select{
+    select {
         width: 100%;
     }
 
-    .banner-options-container button{
+    .banner-options-container button {
         padding: 15px 85px;
     }
 
     /* Popular Tour Section */
-    .popular-tour-container{
+    .popular-tour-container {
         max-width: 332px;
         flex-direction: column;
     }
 
-    .pupular-tour-left-box{
+    .pupular-tour-left-box {
         width: 100%;
     }
 
-    .pupular-tour-left-box h1{
+    .pupular-tour-left-box h1 {
         margin-bottom: 25px;
         font-size: 1.25rem;
         font-weight: 800;
@@ -98,108 +99,113 @@
         max-width: 100%;
     }
 
-    .popular-tour-right-box img{
+    .popular-tour-right-box img {
         width: 100%;
     }
 
     /* Choose Your Destination Section */
-    .destination-container{
+    .destination-container {
         max-width: 332px;
     }
 
-    .picture-grid-container{
+    .picture-grid-container {
         max-width: 332px;
     }
 
-    .first-grid-box{
+    .first-grid-box {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 16px;
     }
 
-    .first-grid-box img{
+    .first-grid-box img {
         width: 100%;
         height: 180px;
         border-radius: 7px;
     }
 
-    .first-grid-box h2{
-        position:absolute;
+    .first-grid-box h2 {
+        position: absolute;
         color: white;
         font-size: 1.25rem;
         margin-top: 80px;
         margin-left: 125px;
     }
 
-    .second-grid-box{
+    .second-grid-box {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 16px;
     }
 
-    .second-grid-box img{
+    .second-grid-box img {
         width: 100%;
         height: 180px;
         border-radius: 7px;
     }
 
-    #kashmir h2{
+    #kashmir h2 {
         font-size: 1.25rem;
         margin-top: 80px;
         margin-left: 125px;
     }
 
-    #srilanka img{
+    #srilanka img {
         height: 180px;
     }
 
-    #srilanka h2{
+    #srilanka h2 {
         font-size: 1.25rem;
         margin-top: 80px;
         margin-left: 125px;
     }
 
-    #north-america h2{
+    #north-america h2 {
         font-size: 1.25rem;
         margin-top: 95px;
         margin-left: 100px;
     }
 
-    .third-grid-box{
+    .third-grid-box {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 16px;
     }
 
-    .third-grid-box img{
+    .third-grid-box img {
         width: 100%;
         height: 180px;
         border-radius: 7px;
     }
 
-    #bangladesh h2,#bandarban h2{
+    #bangladesh h2,
+    #bandarban h2 {
         font-size: 1.25rem;
         margin-top: 90px;
         margin-left: 115px;
     }
 
     /* Why Choose us Section */
-    .why-choose-container {
+    .why-choose-container,
+    .deals-discounts-container {
         max-width: 332px;
     }
 
-    .why-choose-title-container {
+    .why-choose-title-container,
+    .deals-discounts-title-container {
         max-width: 309px;
         margin-bottom: 16px;
     }
 
-    .why-choose-title-container h1{
+    .why-choose-title-container h1,
+    .deals-discounts-title-container h1, .perfect-place-left h1 {
         font-size: 1.25rem;
         font-weight: 800;
         margin-bottom: 16px;
     }
 
-    .why-choose-title-container p {
+    .why-choose-title-container p,
+    .deals-discounts-title-container p {
         color: rgba(19, 19, 24, 0.7);
         font-size: 0.875rem;
         font-weight: 400;
@@ -214,5 +220,87 @@
 
     .why-choose-second-grid-box {
         margin-top: 16px;
+    }
+
+    /* Deals and Discounts Section*/
+
+    .deals-discounts-inner-container {
+        max-width: 332px;
+        gap: 16px;
+    }
+
+    .deals-discount-box {
+        width: 100%px;
+        height: 500px;
+        padding-top: 87px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 16px;
+        background-position: center;
+    }
+
+    .deals-inner-box {
+        max-width: 303px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 16px;
+        backdrop-filter: blur(5px);
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    .deals-inner-inner-box {
+        max-width: 255px;
+        margin: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .deals-discount-second-box {
+        max-width: 100%;
+        background-position: center;
+        padding: 20px;
+    }
+
+    .deals-information span {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 6px;
+    }
+
+    /* Simple Perfect Place */
+    .perfect-place-container {
+        max-width: 332px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .perfect-place-left p{
+        color: rgb(90, 90, 93);
+        font-size: 0.875rem;
+        font-weight: 400;
+        margin-top: 0px;
+    }
+
+    .perfect-place-left ul{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        margin-top: 16px;
+    }
+
+    .perfect-place-right1{
+        display: none;
+    }
+
+    .perfect-place-right2{
+        display: block;
+    }
+
+    .perfect-place-right2 iframe{
+        border-radius: 10px;
     }
 }
