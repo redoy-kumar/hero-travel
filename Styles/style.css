@@ -417,10 +417,18 @@ form {
 
 /* Simple Perfect Place */
 .perfect-place-container{
-    max-width: 1170px;
+    max-width: 1160px;
     margin: 0 auto;
     display: flex;
-    gap: 28px;
+    gap: 30px;
+}
+
+.perfect-place-left{
+    max-width: 50%;
+}
+
+.perfect-place-right1{
+    max-width: 50%;
 }
 
 .perfect-place-left p{
@@ -449,4 +457,66 @@ form {
 
 .perfect-place-right2{
     display: none;
+}
+
+/* Subscribe section */
+.subscribe-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.form-container{
+    max-width: 50%;
+    padding: 40px 84px 23.5px 40px;
+    border-radius: 16px;
+    border: 1px solid rgb(255, 84, 0);
+}
+
+.form-container-upper-box{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 23.5px;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.form-container form>input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.subscribe-picture-container{
+    max-width: 70%;
+}
+
+.subscribe-picture-container img{
+    height: 375px;
+    width: 100%;
+}
+
+.discount-box{
+    width: 324px;
+    height: 120px;
+    color: white;
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-19.63deg);
+    left: 1010px;
+    right: -1016.82px;
+    top: 6176px;
 }
